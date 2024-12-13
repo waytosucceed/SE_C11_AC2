@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header{
+  height:5%;
+  width:100%
+}
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 1250px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+      .button-container {
+  position: fixed; /* Fix the button to the screen */
+  top: 10%; /* Set distance from top */
+  right: 10%; /* Set distance from left */
+  z-index: 100; /* Ensure the button stays above other content */
+}
+      .button {
+        
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+        font-size: 1.4rem;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Optional */
+    }
+
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" style="background-color:white;width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0);  padding-bottom:10px;">
+        <img src="assests/logo/Logo_last.png" width="5%" style="float:left; margin-top:1.5%;" class="img-responsive">
+        <span> <img src="assests/logo/header.png" width="30%" height="80%" class="img-responsive"></span>
+      </div>
+
+      <div class="content-container">
+       
+        <div class="lesson-title">Conclusions from P => Q</div>   
+
+        <div class="lesson-content">
+          <div>
+          
+            <p>
+              When analyzing a conditional statement P => Q (if P  then Q), understanding the implications and the invalid conclusions that can be drawn from it is fundamental to logic and critical reasoning. Let’s explore what conclusions are necessarily true and which are logically fallacious based on the truth of P => Q.
+            </p>
+            <h2>True Conclusions from “P implies Q”</h2>
+            <ol>
+              <li><b>Contrapositive (“not Q implies not P”):</b>
+                <ul>
+                  <li><b>Explanation:</b> The contrapositive of a conditional statement is always true if the original statement is true. If Q is false, then P must also be false.</li>
+                  <li><b>Example:</b> If it is raining (P), then the ground is wet (Q). If the ground is not wet (not Q), then it is not raining (not P).</li>
+                </ul>
+              </li>
+              <li><b>Original Statement (“P implies Q”):</b>
+                <ul>
+                  <li><b>Explanation:</b> By definition, if the original conditional statement is true, then the relationship it asserts is valid.</li>
+                  <li><b>Example:</b> If you study hard (P), then you will pass the exam (Q).</li>
+                </ul>
+              </li>
+            </ol>
+            <h2>False Conclusions from “P implies Q”</h2>
+            <ol>
+              <li><b>Converse (“Q implies P”):</b>
+                <ul>
+                  <li><b>Explanation:</b> Assuming that Q implies P is a common fallacy. The truth of Q does not necessarily imply the truth of P.</li>
+                  <li><b>Example:</b> If the ground is wet (Q), it does not necessarily mean it is raining (P); someone could be watering the garden.</li>
+                </ul>
+              </li>
+              <li><b>Inverse (“not P implies not Q”):</b>
+                <ul>
+                  <li><b>Explanation:</b> The inverse assumes that the negation of P implies the negation of Q, which is not logically supported by “P implies Q”.</li>
+                  <li><b>Example:</b> If you do not study hard (not P), this does not necessarily mean you will fail the exam (not Q); you might still pass based on previous knowledge or guesswork.</li>
+                </ul>
+              </li>
+              <li><b>Affirmation of the Consequent (“Q implies P”):</b>
+                <ul>
+                  <li><b>Explanation:</b> This fallacy occurs when it is assumed that since Q is true, then P must have been true. However, Q might be true for reasons other than P.</li>
+                  <li><b>Example:</b> If the ground is wet (Q), this does not ensure it rained (P); there could be other reasons for the wetness, such as sprinklers.</li>
+                </ul>
+              </li>
+            </ol>
+            <h2>Summary</h2>
+            <h3>True Conclusions:</h3>
+            <ul>
+              <li>“P implies Q” (Original Statement)</li>
+              <li>“not Q implies not P” (Contrapositive)</li>
+            </ul>
+            <h3>
+              False Conclusions:
+            </h3>
+            <ul>
+              <li>“Q implies P” (Converse)</li>
+              <li>“not P implies not Q” (Inverse)</li>
+              <li>Affirming the consequent and denying the antecedent incorrectly assume relations not supported by the initial conditional logic.</li>
+            </ul>
+          </div>
+        </div>
+        
+        
+        
+      </div>
+      <div class="button-container">
+        <a href="question.html" class="button">To Practice<br>Click Next</a>
+    </div>
+    </div>
+  </body>
+</html>

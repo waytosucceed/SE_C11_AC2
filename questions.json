@@ -1,0 +1,79 @@
+[
+  {
+    "questionNo": "Q1",
+    "question": "If a plant is watered adequately, then it will grow well.<br> Which one of the following cannot be true?",
+    "options": [
+      " A plant that did not grow well was not watered adequately.",
+      " A plant that was not watered adequately grew well.",
+      " A plant that grew well was watered adequately.",
+      " Both B and C"
+    ],
+    "correct": 3
+  },
+  {
+    "questionNo": "Q2",
+    "question": "If an employee achieves their targets, then they receive a bonus.<br> Which one of the following must be true?",
+    "options": [
+      " An employee who did not achieve their targets received a bonus.",
+      " An employee who did not receive a bonus achieved their targets.",
+      " An employee who did not receive a bonus did not achieve their targets.",
+      " An employee who received a bonus did not achieve their targets."
+    ],
+    "correct": 2
+  },
+  {
+    "questionNo": "Q3",
+    "question": "If a car is electric, then it is environmentally friendly.<br> Which one of the following cannot be false?",
+    "options": [
+      " A car that is not electric is environmentally friendly.",
+      " A car that is environmentally friendly is electric.",
+      " A car that is not environmentally friendly is not electric.",
+      " An electric car is not environmentally friendly."
+    ],
+    "correct": 2
+  },
+  {
+    "questionNo": "Q4",
+    "question": "If the weather is cold, then the heater is on.<br> Which one of the following must be true?",
+    "options": [
+      " The weather is not cold and the heater is on.",
+      " The heater is on so the weather must be cold.",
+      " The weather is cold so the heater must be off.",
+      " The heater is off so the weather is not cold."
+    ],
+    "correct": 3
+  },
+  {
+    "questionNo": "Q5",
+    "question": "If a document is confidential, then it is locked in the safe.<br> Which one of the following cannot be false?",
+    "options": [
+      " A document that is not confidential is not in the safe.",
+      " A document that is not locked in the safe is not confidential.",
+      " A document that is not in the safe is confidential.",
+      " A document in the safe is confidential."
+    ],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q6",
+    "question": "If a student studies diligently, then they pass the exam.<br> Which one of the following must be true?",
+    "options": [
+      " A student who did not study diligently passed the exam.",
+      " A student who passed the exam studied diligently.",
+      " A student who studied diligently did not pass the exam.",
+      " A student who did not pass the exam is the one who did not study diligently."
+    ],
+    "correct": 3
+  },
+  {
+    "questionNo": "Q7",
+    "question": "If a light is red, then cars must stop.<br> Which one of the following cannot be true?",
+    "options": [
+      "Cars does not stop, then the light is not red.",
+      "If a light is red, then cars must stop.",
+      "The car stops, then the light is red.",
+      "None of the above"
+    ],
+    "correct": 2
+  }
+]
